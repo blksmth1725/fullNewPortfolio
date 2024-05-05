@@ -131,7 +131,11 @@ export default function PersistentDrawerLeft() {
 				<List>
 					{drawerList.map((obj, index) => (
 						<ListItem key={obj.title} disablePadding>
-							<ListItemButton component={Link} to={`${BASE_URL}${obj.route}`}>
+							<ListItemButton
+								onClick={handleDrawerClose}
+								component={Link}
+								to={`${BASE_URL}${obj.route}`}
+							>
 								<ListItemIcon></ListItemIcon>
 								<ListItemText primary={obj.title} />
 							</ListItemButton>
