@@ -1,5 +1,62 @@
 .hp {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hp-section-one {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.contact-card {
+  width: 20%;
+  box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px
+}
+
+.card-title {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.desc-card {
+  width: 35%;
+  box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px
+}
+
+.work-section {
+  width: 100%;
+}
+
+.work-container {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%
+}
+
+.cert-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bullet-points {
+  display: flex;
+  flex-direction: column;
 }

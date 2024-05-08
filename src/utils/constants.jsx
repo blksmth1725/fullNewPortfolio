@@ -1,1 +1,120 @@
 export const BASE_URL = "http://localhost:3000";
+
+export const CHRIS_JSON = {
+	Email: "Csheen1725@gmail.com",
+	Phone: "(786)832-1691",
+	Location: "Miami, United States",
+	GitHub: "github.com/blksmth1725",
+	LinkedIn: "linkedin.com/in/csheen",
+	Intro:
+		"Software engineer who creatively solves problems to deliver seamless user experiences.\n I strive to understand people,technology, and how they interact to build useful applications/features.\n The goal is to help others bring their ideas to life through technology, helping them reach customers and grow.",
+	Work: [
+		{
+			Position: "Software Engineer",
+			Company: "Watch Systems LLC",
+			Location: "Mandeville, Louisiana",
+			DateStart: "01/17/2022",
+			DateEnd: "Present",
+			BriefDesc:
+				"Watch Systems provides local law enforment with software solutions to keep track of sex-offenders",
+			BulletPoints: [
+				"Build web-based application to replace legacy desktop application.",
+				"Follow sigma design intent provided by design team to provide a modern look to new web-based application",
+				"Trouble shoot SQL stored procedures to ensure correct data is always being returned",
+				"Work on server and API endpoints to recieve same data as legacy application",
+				"Work with NCIC database",
+				"Work with NCIC Protocols",
+			],
+		},
+		{
+			Position: "Junior Software Engineer",
+			Company: "Pedra CRM LLC",
+			Location: "Miami, FL",
+			DateStart: "06/01/2021",
+			DateEnd: "01/17/2022",
+			BriefDesc: "Building CRM system for existing API",
+			BulletPoints: [
+				"Currently working on an iOS app with SwiftUI and Apollo as my Graphql client which provides the same functionality as the web application. (iOS)",
+				"Designing of 10+ Views performing queries with persisted user authorization via session tokens. (iOS)",
+				"Built payment feature on web application to process transactions and store users’ payment information in a secure manner. (Web Next.js)",
+				"Using Graphql to query and mutate data with over 20 query/mutation endpoints resulting in 3 features moving into production. (Web Next.js)",
+				"Learning about business logic for CRMs to give said features an intuitive feel, allowing users to create, modify or delete at many instances within their pipeline. (Web Next.js)",
+			],
+		},
+		{
+			Position: "Marketing + Operations Consultant",
+			Company: "TD LUX",
+			Location: "Miami, FL",
+			DateStart: "11/01/2018",
+			DateEnd: "04/01/2021",
+			BriefDesc: "Led marketing, inventory, and operations projects",
+			BulletPoints: [
+				"Collaborated with the marketing team on 1-2 monthly campaigns to drive traffictowards our online platforms, resulting in 15% increase in online orders during COVID",
+				"During Covid-19 peak: tasked with redesigning one of the locations. Created floor plans, renderings and designed new furniture. This resulted in 20% more square footage, which allowed us to provide guests with a safe dining experience.",
+				"Created a process to track inventory and maintenance requirements across 6 restaurants allowing the business to efficiently repair or replace machines resulting in no down time.",
+			],
+		},
+		{
+			Position: "Architectural Assistant",
+			Company: "Archimia",
+			Location: "Miami, FL",
+			DateStart: "07/01/2017",
+			DateEnd: "07/01/2018",
+			BriefDesc: "Created and modified architectural drawings",
+			BulletPoints: [
+				"Authored 10 renders based on a residential project the firm was overseeing, resulting in the selection of materials/finishes which fit within the budget and satisfied clients aesthetic demands.",
+				"Designing for over 800 hours in Revit. Contributed to 6 projects of which 4 I saw to completion.",
+				"Sourced information from FBC & IBC to satisfy ADA, easement & egress, setback, FAR standards. Through proper implementation the business made fewer trips to the city for approval which improved delivery times.",
+			],
+		},
+	],
+	Certifications: [
+		{
+			Title: "Full stack web development bootcamp",
+			Institution: "Bottega University",
+			State: "Utah",
+			DateStart: "01/2019",
+			DateEnd: "01/2020",
+			Technologies: [
+				"Javascript",
+				"HTML",
+				"CSS",
+				"Node.js",
+				"Express.js",
+				"React",
+				"Redux",
+				"MongoDB",
+			],
+		},
+		{
+			Title: "Certificate of completion",
+			Institution: "Udemy",
+			State: "Florida",
+			DateStart: "02/2021",
+			DateEnd: "03/2021",
+			Technologies: ["Node.js", "React"],
+		},
+		{
+			Title: "Certificate of completion",
+			Institution: "Udemy",
+			State: "Florida",
+			DateStart: "04/2021",
+			DateEnd: "05/2021",
+			Technologies: ["Node.js", "Express.js", "React", "MongoDB"],
+		},
+		{
+			Title: "Architectural Associates in Art",
+			Institution: "Miami Dade College",
+			State: "Florida",
+			Description:
+				"Completed 70 credits hours toward a degree in Architectural Arts",
+			DateStart: "08/2012",
+			DateEnd: "08/2014",
+			Technologies: [
+				"Advanced Design Theory",
+				"Architectural Structures",
+				"Environmental Systems in Architecture",
+			],
+		},
+	],
+};

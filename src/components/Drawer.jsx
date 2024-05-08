@@ -9,7 +9,13 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+	faBars,
+	faArrowLeft,
+	faChevronLeft,
+	faChevronRight,
+	faCode,
+} from "@fortawesome/free-solid-svg-icons";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -17,6 +23,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import { BASE_URL } from "../utils/constants";
+import "../css/css-components/header.css";
 
 const drawerWidth = 240;
 const drawerList = [
@@ -100,8 +107,14 @@ export default function PersistentDrawerLeft() {
 					>
 						<FontAwesomeIcon icon={faBars} />
 					</IconButton>
-					<Button component={Link} to="/" variant="h6" noWrap>
-						Logo
+					<Button
+						onClick={handleDrawerClose}
+						component={Link}
+						to="/"
+						variant="h6"
+						noWrap
+					>
+						<h3 className="header-logo">Christian Sheen</h3>
 					</Button>
 				</Toolbar>
 			</AppBar>
