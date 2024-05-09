@@ -1,21 +1,20 @@
 .hp {
+  display: flex;
   padding-left: 30px;
   padding-right: 30px;
+  gap: 35px
 }
 
 .hp-section-one {
+  width: 100%;
+  height: 50%;
   display: flex;
   flex-direction: row;
   gap: 25px;
 }
 
-.contact-card {
-  width: 20%;
-  box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
-  -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
-  -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
-  border-radius: 10px;
-  padding: 20px
+.hp-section-two {
+  max-height: 100%;
 }
 
 .card-title {
@@ -23,8 +22,8 @@
   font-weight: 600;
 }
 
-.desc-card {
-  width: 35%;
+.contact-card {
+  width: 45%;
   box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
   -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
   -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
@@ -32,14 +31,27 @@
   padding: 20px
 }
 
-.work-section {
-  width: 100%;
+.desc-card {
+  width: 55%;
+  box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px
+}
+
+
+.wex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .work-container {
-  gap: 20px;
+  margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .job-card {
@@ -48,7 +60,7 @@
   -moz-box-shadow: -2px 3px 12px 6px rgba(0, 0, 0, 0.27);
   border-radius: 10px;
   padding: 20px;
-  width: 40%
+  width: 100%
 }
 
 .cert-card {
@@ -59,4 +71,11 @@
 .bullet-points {
   display: flex;
   flex-direction: column;
+  gap: 5px
+}
+
+.bp-container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
 }
